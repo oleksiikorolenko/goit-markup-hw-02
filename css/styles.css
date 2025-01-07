@@ -64,8 +64,12 @@ button{
     font-size: 16px;
     line-height: 24px;
     cursor: pointer;
-
 }
+button:hover,
+button:focus{
+    background-color: #404BBF;
+}
+
 h2{
     color: #2E2F42;
         font-weight: 700;
@@ -85,6 +89,9 @@ p{
         font-size: 16px;
         line-height: 24px;
 
+}
+.values-title{
+    color: transparent;
 }
 .values-list{
     list-style-type: none;
